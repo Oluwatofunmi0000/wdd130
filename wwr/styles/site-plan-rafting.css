@@ -11,10 +11,10 @@
     --heading-font: work sans, serif;
     --paragraph-font: work sans, serif;
   
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: d00000;
+    --nav-link-color: ffbd00;
+    --nav-hover-link-color: bb9457;
+    --nav-hover-background-color: eff7f6;
   }
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
