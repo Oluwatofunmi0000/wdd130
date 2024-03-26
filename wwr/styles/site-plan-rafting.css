@@ -1,23 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 
 :root{
-    --primary-color: d00000;
-    --secondary-color: ffbd00;
-    --accent1-color: bb9457;
-    --accent2-color: eff7f6;
+    --primary-color: #d00000;
+    --secondary-color: #ffbd00;
+    --accent1-color: #bb9457;
+    --accent2-color: #eff7f6;
   
-    --heading-font: work sans, serif;
-    --paragraph-font: work sans, serif;
+    --heading-font: "work sans", sans-serif;
+    --paragraph-font:"work sans", sans-serif;
   
-    --nav-background-color: d00000;
-    --nav-link-color: ffbd00;
-    --nav-hover-link-color: bb9457;
-    --nav-hover-background-color: eff7f6;
+    --nav-background-color: #d00000;
+    --nav-link-color: #ffbd00;
+    --nav-hover-link-color: #bb9457;
+    --nav-hover-background-color: #eff7f6;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
   body {
     font-family: var(--paragraph-font);
     max-width: 960px;
