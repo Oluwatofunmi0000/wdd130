@@ -40,11 +40,11 @@ footer {
 }
 
 .hero img {
-  display: block;
   width: 100%;
-  height: auto;
+}
 
-
+article img {
+  width: 200px;
 }
 
 .sociallinks a {
