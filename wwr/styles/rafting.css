@@ -15,15 +15,7 @@
   --nav-hover-background-color: #eff7f6;
 }
 
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
@@ -79,10 +71,8 @@ nav {
 }
 
 
-header,
-main,
-footer {
-  max-width: 1200px;
+header,main,footer,.grid{
+  max-width: 840px;
   margin: 0 auto;
 }
 
@@ -95,32 +85,34 @@ footer {
 }
  
 .hero h1{
-  position: absolute;
-  top: 20px;
-  width: 200px;
-
+position: absolute;
+top: 20px;
+width: 100%;
+background-color: #ffffff78;
+padding: 20px 0;
+text-align: center;
 }
 
 .hero article{
   background-color: rgba(255,255,255,.35);
   position:absolute;
-  top: 20px;
-  left: 15px;
-  right: 30px
+  top: 125px;
+  left: 30px;
+  right: 30px;
+  color: #000;
 }
 
 .hero article img{
   float: right;
   margin: 10px;
-  width: 20px;
+  width: 200px;
 }
  
 .hero article p{
   color:aqua;
-  font-size:5;
+  font-size:16px;
   text-align: center;
 }
-
 
 article img {
   width: 200px;
