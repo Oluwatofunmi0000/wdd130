@@ -81,7 +81,7 @@ header, footer{
 
 .grid {
   display: grid;
-  align-items: left;
+  align-items: right;
 }
 
 
