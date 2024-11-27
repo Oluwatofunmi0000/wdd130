@@ -82,6 +82,7 @@
    .grid {
      display: grid;
      align-items: right;
+     /* margin-right: 20px; */
    }
    
    
