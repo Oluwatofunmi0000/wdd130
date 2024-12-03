@@ -9,7 +9,7 @@
   --heading-font: "work sans", sans-serif;
   --paragraph-font: "work sans", sans-serif;
 
-  --nav-background-color: #d00000;
+  --nav-background-color: hsl(216, 86%, 36%);
   --nav-link-color: #ffbd00;
   --nav-hover-link-color: #bb9457;
   --nav-hover-background-color: #eff7f6;
@@ -43,6 +43,10 @@ header {
 h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
 }
 
 nav {
@@ -96,6 +100,7 @@ padding: 20px 0;
 text-align: center;
 }
 
+
 .hero article{
   background-color: rgba(255,255,255,.35);
   position:absolute;
@@ -112,7 +117,7 @@ text-align: center;
 }
  
 .hero article p{
-  color:aqua;
+  color:black;
   font-size:16px;
   text-align: center;
 }
@@ -121,8 +126,39 @@ article img {
   width: 200px;
 }
 
+.subhead1{
+    display: flex;
+}
+.subhead{
+    text-align: center;
+}
+.figurative{
+    display: flex;
+    align-items: space-around ;
+} 
+
+.sociallinks{
+    /* display: flex; */
+    /* text-align: space-between;
+    margin: 50px; */
+    /* background-color: #333; */
+  /* color: white; */
+  /* padding: 20px; */
+  /* text-align: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.social{
+    /* margin-right: 50px; */
+    /* display: grid; */
+  /* justify-content: center;
+  gap: 15px; */
+}
 
 .sociallinks a {
   text-decoration: none;
-  
+  /* justify-content: center; */
+  /* gap: 15px; */
 }
