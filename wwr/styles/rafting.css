@@ -134,8 +134,12 @@ article img {
 }
 .figurative{
     display: flex;
-    align-items: space-around ;
+    margin-left: -55px;
+    gap: 10px;
+    /* align-items: space-around ; */
 } 
+
+
 
 .sociallinks{
     /* display: flex; */
@@ -157,8 +161,12 @@ article img {
   gap: 15px; */
 }
 
+
+
 .sociallinks a {
   text-decoration: none;
-  /* justify-content: center; */
-  /* gap: 15px; */
+  justify-content: center;
+  gap: 15px;
+  /* margin: 50px; */
+
 }
